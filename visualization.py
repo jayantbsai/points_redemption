@@ -24,8 +24,10 @@ y = df['value'] = df['price']/df['points']
 c = df['color'] = [color_lookup[t] for t in x]
 df = df.sort_values('value')
 
-# create subplot
+# create & configure subplot
 fig, ax = plt.subplots()
+fig.set_size_inches(9, 5)
+fig.subplots_adjust(bottom=0.2)
 
 # scatter plot
 sc = ax.scatter(x, y, color=c)
