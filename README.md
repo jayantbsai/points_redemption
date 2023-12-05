@@ -1,11 +1,11 @@
 # Maximing Credit Card Redemption Points
 
-##### Install dependencies
+#### Install dependencies
 ```
 pip3 install -r requirements.txt
 ```
 
-##### Files
+#### Files
 * [analysis.ipynb](analysis.ipynb): Analysis to maximize value of credic card points redeemed
 * [visualization.py](visualization.py): Desktop visualization with mouse over to show ¢ per point
 ```
@@ -16,7 +16,7 @@ python3 visualization.py
     *   The M2 MacBook Pro is no longer available to order, so required some Googling to find historical price
     *   10% discounted gift card, offer valid until Jan 1st, 2024
 
-##### Visualization
+#### Visualization
 Maximum value 1.11¢ per point when redeeming Apple Gift Cards
 <img src='files/rewards_visualization_1.png' width='500' />
 
