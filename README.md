@@ -1,4 +1,5 @@
-# Maximing Credit Card Redemption Points
+# Maximizing Credit Card Redemption Points
+Check out my analysis on how to maximize credit card points and save! Last month, I saved 35% by redeeming my points for Apple gift cards instead of using points for new AirPods.
 
 ### Install dependencies
 Run command to install 
@@ -11,7 +12,7 @@ pip install pandas numpy matplotlib jupyter
 ```
 
 ### Files
-* [analysis.ipynb](analysis.ipynb): Analysis to maximize value of credic card points redeemed
+* [analysis.ipynb](analysis.ipynb): Analysis to maximize value of credit card points redeemed
 * [visualization.py](visualization.py): Desktop visualization with mouse over to show ¢ per point
 ```
 python3 visualization.py
@@ -22,8 +23,8 @@ python3 visualization.py
     *   10% discounted gift card, offer valid until Jan 1st, 2024
 
 ### Visualization
-Maximum value 1.11¢ per point when redeeming Apple Gift Cards
+Max value 1.11¢ per point when redeeming Apple Gift Cards
 ![](files/rewards_visualization_1.png)
 
-Minimum value 0.48¢ per point when redeeming 35W Dual USB-C Port Compact Power Adapter
+Min value 0.48¢ per point when redeeming 35W Dual USB-C Port Compact Power Adapter
 ![](files/rewards_visualization_2.png)
